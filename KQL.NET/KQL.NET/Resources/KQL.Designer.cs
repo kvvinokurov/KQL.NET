@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace KirillVinokurov.SharePoint.Search.Resources {
+namespace KQL.NET.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace KirillVinokurov.SharePoint.Search.Resources {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KirillVinokurov.SharePoint.Search.Resources.KQL", typeof(KQL).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("KQL.NET.Resources.KQL", typeof(KQL).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -1,6 +1,6 @@
 using System;
 
-namespace KirillVinokurov.SharePoint.Search
+namespace KQL.NET
 {
     public static partial class KQL
     {

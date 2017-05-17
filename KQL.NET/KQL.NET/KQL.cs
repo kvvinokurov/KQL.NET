@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace KirillVinokurov.SharePoint.Search
+namespace KQL.NET
 {
     /// <summary>
     ///     Keyword Query Language (KQL)

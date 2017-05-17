@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace KirillVinokurov.SharePoint.Search
+namespace KQL.NET
 {
     public static partial class KQL
     {
