@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KQL.NET", "KQL.NET\KQL.NET.csproj", "{DC610B7C-ED37-4862-9371-AE1A226A5E9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Key", "Key", "{50957D52-BE4D-4DDD-9DB5-0E7B13AE9045}"
+	ProjectSection(SolutionItems) = preProject
+		Key\kql.snk = Key\kql.snk
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9E7FF097-D8EE-45DF-A596-8F33997BD3B7}"
+EndProject
+Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "KQL.NET.Documentation", "KQL.NET.Documentation\KQL.NET.Documentation.shfbproj", "{4A317CD7-5648-470A-B764-7B095AF5855D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A317CD7-5648-470A-B764-7B095AF5855D} = {9E7FF097-D8EE-45DF-A596-8F33997BD3B7}
+	EndGlobalSection
+EndGlobal
