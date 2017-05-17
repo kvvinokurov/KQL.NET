@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="052e0350-f8e8-4c37-8460-d72f2b3c0df2" Title="KQL.NET" Url="html/3C471DD0.htm">
+    <HelpTOCNode Id="9c948c5f-4dc1-4b1b-92b8-6b989bc2fab3" Title="KQL - класс" Url="html/A04103EA.htm">
+      <HelpTOCNode Id="61be3cc2-66cc-4a41-8125-397869abfb0c" Title="KQL - методы" Url="html/C5D6240.htm">
+        <HelpTOCNode Id="53f2a8ee-35e8-497d-985b-dc9a52f2669d" Title="All - метод" Url="html/F7ADF0A7.htm">
+          <HelpTOCNode Title="All(String) - метод" Url="html/C25BBA7E.htm" />
+          <HelpTOCNode Title="All(String[]) - метод" Url="html/77C9BD7C.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e670a262-762f-4150-90d2-82e7d9da34a9" Title="And - метод" Url="html/9824D9DD.htm">
+          <HelpTOCNode Title="And(IList(String), Boolean) - метод" Url="html/AB91BA76.htm" />
+          <HelpTOCNode Title="And(String, String) - метод" Url="html/87BFBD74.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="AndEq - метод" Url="html/3196E434.htm" />
+        <HelpTOCNode Title="AndStrongEq - метод" Url="html/FED22273.htm" />
+        <HelpTOCNode Id="35eec099-5d35-4770-92e2-213fb279a4b5" Title="Any - метод" Url="html/AC45D9DD.htm">
+          <HelpTOCNode Title="Any(String) - метод" Url="html/AB91BA8B.htm" />
+          <HelpTOCNode Title="Any(String[]) - метод" Url="html/87BFBD89.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="ConvertBoolToQueryFormat - метод" Url="html/29997C5C.htm" />
+        <HelpTOCNode Title="ConvertDateTimeToQueryFormat - метод" Url="html/D02A669E.htm" />
+        <HelpTOCNode Id="194d8d9f-57ba-4245-ac30-5a5616448619" Title="Eq - метод" Url="html/FF7B9828.htm">
+          <HelpTOCNode Title="Eq(String, Boolean) - метод" Url="html/33182630.htm" />
+          <HelpTOCNode Title="Eq(String, Decimal) - метод" Url="html/F0E4E801.htm" />
+          <HelpTOCNode Title="Eq(String, Double) - метод" Url="html/F0E3E801.htm" />
+          <HelpTOCNode Title="Eq(String, Int32) - метод" Url="html/F0EAE801.htm" />
+          <HelpTOCNode Title="Eq(String, Int64) - метод" Url="html/F0E9E801.htm" />
+          <HelpTOCNode Title="Eq(String, String) - метод" Url="html/F0E8E801.htm" />
+          <HelpTOCNode Title="Eq(String, DateTime, Boolean) - метод" Url="html/F0E5E801.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="4473f226-cd98-4174-966a-59608b60a32e" Title="Geq - метод" Url="html/34B520E4.htm">
+          <HelpTOCNode Title="Geq(String, Decimal) - метод" Url="html/E2228D9F.htm" />
+          <HelpTOCNode Title="Geq(String, Double) - метод" Url="html/FA2C2FCE.htm" />
+          <HelpTOCNode Title="Geq(String, Int32) - метод" Url="html/9CD3A469.htm" />
+          <HelpTOCNode Title="Geq(String, Int64) - метод" Url="html/CA18EB70.htm" />
+          <HelpTOCNode Title="Geq(String, DateTime, Boolean) - метод" Url="html/22ABFEE1.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="cc7a3d31-99cd-4336-8e67-81aee9358a49" Title="Gt - метод" Url="html/2CBEDF2F.htm">
+          <HelpTOCNode Title="Gt(String, Decimal) - метод" Url="html/4DC5FECB.htm" />
+          <HelpTOCNode Title="Gt(String, Double) - метод" Url="html/4DC4FECB.htm" />
+          <HelpTOCNode Title="Gt(String, Int32) - метод" Url="html/4DC3FECB.htm" />
+          <HelpTOCNode Title="Gt(String, Int64) - метод" Url="html/4DCAFECB.htm" />
+          <HelpTOCNode Title="Gt(String, DateTime, Boolean) - метод" Url="html/8FF83CFA.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3d1ffc1a-6870-41dd-9441-568c54a3d326" Title="Leq - метод" Url="html/34C020E4.htm">
+          <HelpTOCNode Title="Leq(String, Decimal) - метод" Url="html/D68526AC.htm" />
+          <HelpTOCNode Title="Leq(String, Double) - метод" Url="html/33DDB211.htm" />
+          <HelpTOCNode Title="Leq(String, Int32) - метод" Url="html/91363D76.htm" />
+          <HelpTOCNode Title="Leq(String, Int64) - метод" Url="html/3CA6DB3.htm" />
+          <HelpTOCNode Title="Leq(String, DateTime, Boolean) - метод" Url="html/B017CEA4.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="796c53fb-1ab5-4c19-9c5f-2f968b042f01" Title="Lt - метод" Url="html/2CC9DF2F.htm">
+          <HelpTOCNode Title="Lt(String, Decimal) - метод" Url="html/DB31CE8E.htm" />
+          <HelpTOCNode Title="Lt(String, Double) - метод" Url="html/DB30CE8E.htm" />
+          <HelpTOCNode Title="Lt(String, Int32) - метод" Url="html/DB2FCE8E.htm" />
+          <HelpTOCNode Title="Lt(String, Int64) - метод" Url="html/DB36CE8E.htm" />
+          <HelpTOCNode Title="Lt(String, DateTime, Boolean) - метод" Url="html/1D640CBD.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Minus - метод" Url="html/38F7010C.htm" />
+        <HelpTOCNode Id="1517618a-e99b-47d3-86b1-6a4d1cc1d101" Title="Near - метод" Url="html/4A256DF7.htm">
+          <HelpTOCNode Title="Near(String, String) - метод" Url="html/6B36E55E.htm" />
+          <HelpTOCNode Title="Near(String, String, UInt32) - метод" Url="html/78787350.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="da49d9ea-2421-4b28-add6-20c94083ab10" Title="Neq - метод" Url="html/34BE20E4.htm">
+          <HelpTOCNode Title="Neq(String, Boolean) - метод" Url="html/6AC8E56E.htm" />
+          <HelpTOCNode Title="Neq(String, Decimal) - метод" Url="html/CF4F7487.htm" />
+          <HelpTOCNode Title="Neq(String, Double) - метод" Url="html/2CA7FFEC.htm" />
+          <HelpTOCNode Title="Neq(String, Int32) - метод" Url="html/149E5DBD.htm" />
+          <HelpTOCNode Title="Neq(String, Int64) - метод" Url="html/71F6E922.htm" />
+          <HelpTOCNode Title="Neq(String, String) - метод" Url="html/59ED46F3.htm" />
+          <HelpTOCNode Title="Neq(String, DateTime, Boolean) - метод" Url="html/E75916B6.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Not - метод" Url="html/AF26E571.htm" />
+        <HelpTOCNode Id="3737a8fa-b28c-4a9a-81e5-8e180a3d80e7" Title="Onear - метод" Url="html/EEBD26E3.htm">
+          <HelpTOCNode Title="Onear(String, String) - метод" Url="html/C0BC5C8A.htm" />
+          <HelpTOCNode Title="Onear(String, String, UInt32) - метод" Url="html/4B605987.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="72a5fc6c-c80f-4483-9a8c-0656e9e539d7" Title="Or - метод" Url="html/E777F5F9.htm">
+          <HelpTOCNode Title="Or(IList(String), Boolean) - метод" Url="html/365E9822.htm" />
+          <HelpTOCNode Title="Or(String, String) - метод" Url="html/F42C59F3.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="OrStrongEq - метод" Url="html/B280C67D.htm" />
+        <HelpTOCNode Title="Parenthesis - метод" Url="html/907F874E.htm" />
+        <HelpTOCNode Title="Plus - метод" Url="html/4A988F9C.htm" />
+        <HelpTOCNode Title="PrepareStringPhrase - метод" Url="html/F07EA2A2.htm" />
+        <HelpTOCNode Title="QuoteString - метод" Url="html/6531CD2B.htm" />
+        <HelpTOCNode Id="b7244534-8f17-4524-8cb2-f9edcd7ad67a" Title="Range - метод" Url="html/90A39B80.htm">
+          <HelpTOCNode Title="Range(String, Decimal, Decimal) - метод" Url="html/1D7489E6.htm" />
+          <HelpTOCNode Title="Range(String, Double, Double) - метод" Url="html/1D7489E3.htm" />
+          <HelpTOCNode Title="Range(String, Int32, Int32) - метод" Url="html/1D7489E4.htm" />
+          <HelpTOCNode Title="Range(String, Int64, Int64) - метод" Url="html/1D7489E9.htm" />
+          <HelpTOCNode Title="Range(String, DateTime, DateTime, Boolean) - метод" Url="html/12F68C87.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="5bb5ce56-3236-422e-b7ed-3f25c0b34e72" Title="StrongEq - метод" Url="html/9381D141.htm">
+          <HelpTOCNode Title="StrongEq(String, Boolean) - метод" Url="html/2E636CE.htm" />
+          <HelpTOCNode Title="StrongEq(String, Decimal) - метод" Url="html/B700F489.htm" />
+          <HelpTOCNode Title="StrongEq(String, Double) - метод" Url="html/4265F489.htm" />
+          <HelpTOCNode Title="StrongEq(String, Int32) - метод" Url="html/A036F489.htm" />
+          <HelpTOCNode Title="StrongEq(String, Int64) - метод" Url="html/2B9BF489.htm" />
+          <HelpTOCNode Title="StrongEq(String, String) - метод" Url="html/896CF489.htm" />
+          <HelpTOCNode Title="StrongEq(String, DateTime, Boolean) - метод" Url="html/592FF489.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="WildcardBoth - метод" Url="html/98177C12.htm" />
+        <HelpTOCNode Title="WildcardLeft - метод" Url="html/F92AEDF6.htm" />
+        <HelpTOCNode Title="WildcardRight - метод" Url="html/7B763D40.htm" />
+        <HelpTOCNode Title="Words - метод" Url="html/8F1604F6.htm" />
+        <HelpTOCNode Title="Xrank - метод" Url="html/B57153A.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="4b12881e-11d7-4a3c-80a3-f546fb7742a7" Title="KQL.DateTokens - класс" Url="html/52D081BA.htm">
+      <HelpTOCNode Id="e932d9a5-77a4-4e9c-9c2e-2453d5053f79" Title="DateTokens - свойства" Url="html/58F56129.htm">
+        <HelpTOCNode Title="LastMonth - свойство" Url="html/FA8BEA61.htm" />
+        <HelpTOCNode Title="LastYear - свойство" Url="html/FDA1A609.htm" />
+        <HelpTOCNode Title="ThisMonth - свойство" Url="html/701CF51F.htm" />
+        <HelpTOCNode Title="ThisWeek - свойство" Url="html/B2268324.htm" />
+        <HelpTOCNode Title="ThisYear - свойство" Url="html/85DC832B.htm" />
+        <HelpTOCNode Title="Today - свойство" Url="html/831BEC7B.htm" />
+        <HelpTOCNode Title="Yesterday - свойство" Url="html/F19B7209.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
