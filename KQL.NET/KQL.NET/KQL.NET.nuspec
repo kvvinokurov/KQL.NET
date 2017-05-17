@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <projectUrl>https://github.com/kvvinokurov/KQL.NET</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/kvvinokurov/KQL.NET/master/Icons/kql_net.png</iconUrl>
+    <licenseUrl>https://github.com/kvvinokurov/KQL.NET/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <copyright>$copyright$</copyright>
+    <tags>KQL SharePoint 2010 2013 2016 KirillVinokurov</tags>
+  </metadata>
+  <files>
+    <file src="bin\Release-net3.5\$id$.*" target="lib\net35" />
+    <file src="bin\Release-net4.5\$id$.*" target="lib\net45" />
+    <file src="bin\Release-net4.6\$id$.*" target="lib\net46" />
+  </files>
+</package>

@@ -120,7 +120,12 @@ namespace KirillVinokurov.SharePoint.Search
                     listOfArguments.Add(WrapProperty(Resources.KQL.XrankPB,
                         pb.Value.ToString(CultureInfo.InvariantCulture)));
 
+
+#if NET35
+                arguments = string.Join(", ", listOfArguments.ToArray());      
+#else
                 arguments = string.Join(", ", listOfArguments);
+#endif
             }
 
             return string.Format(XrankPattern, matchExpressions, Resources.KQL.Xrank, arguments,

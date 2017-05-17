@@ -13,21 +13,38 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9E7FF097-D8EE-45DF-A596-8F33997BD3B7}"
 EndProject
 Project("{7CF6DF6D-3B04-46F8-A40B-537D21BCA0B4}") = "KQL.NET.Documentation", "KQL.NET.Documentation\KQL.NET.Documentation.shfbproj", "{4A317CD7-5648-470A-B764-7B095AF5855D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B} = {DC610B7C-ED37-4862-9371-AE1A226A5E9B}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+		Debug-net3.5|Any CPU = Debug-net3.5|Any CPU
+		Debug-net4.5|Any CPU = Debug-net4.5|Any CPU
+		Debug-net4.6|Any CPU = Debug-net4.6|Any CPU
+		Release-net3.5|Any CPU = Release-net3.5|Any CPU
+		Release-net4.5|Any CPU = Release-net4.5|Any CPU
+		Release-net4.6|Any CPU = Release-net4.6|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4A317CD7-5648-470A-B764-7B095AF5855D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4A317CD7-5648-470A-B764-7B095AF5855D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4A317CD7-5648-470A-B764-7B095AF5855D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4A317CD7-5648-470A-B764-7B095AF5855D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug-net3.5|Any CPU.ActiveCfg = Debug-net3.5|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug-net3.5|Any CPU.Build.0 = Debug-net3.5|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug-net4.5|Any CPU.ActiveCfg = Debug-net4.5|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug-net4.5|Any CPU.Build.0 = Debug-net4.5|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug-net4.6|Any CPU.ActiveCfg = Debug-net4.6|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Debug-net4.6|Any CPU.Build.0 = Debug-net4.6|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release-net3.5|Any CPU.ActiveCfg = Release-net3.5|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release-net3.5|Any CPU.Build.0 = Release-net3.5|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release-net4.5|Any CPU.ActiveCfg = Release-net4.5|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release-net4.5|Any CPU.Build.0 = Release-net4.5|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release-net4.6|Any CPU.ActiveCfg = Release-net4.6|Any CPU
+		{DC610B7C-ED37-4862-9371-AE1A226A5E9B}.Release-net4.6|Any CPU.Build.0 = Release-net4.6|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Debug-net3.5|Any CPU.ActiveCfg = Debug-net3.5|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Debug-net4.5|Any CPU.ActiveCfg = Debug-net4.5|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Debug-net4.6|Any CPU.ActiveCfg = Debug-net4.6|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Release-net3.5|Any CPU.ActiveCfg = Release-net3.5|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Release-net4.5|Any CPU.ActiveCfg = Release-net4.5|Any CPU
+		{4A317CD7-5648-470A-B764-7B095AF5855D}.Release-net4.6|Any CPU.ActiveCfg = Release-net4.6|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,1 @@
+﻿nuget.exe pack KQL.NET.csproj -prop Configuration=Release-net4.5 -OutputDirectory ..\..
