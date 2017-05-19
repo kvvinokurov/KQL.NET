@@ -655,7 +655,7 @@ namespace KQL.NET
             if (endValue == string.Empty)
                 throw new ArgumentException(@"Параметр не может быть пустым", nameof(endValue));
 
-            var valueExpression = string.Format(ConcatPattern, startValue, Resources.KQL.Range, endValue);
+            var valueExpression = string.Concat(startValue, Resources.KQL.Range, endValue);
 
             return StrongEq(propertyName, valueExpression);
         }
@@ -788,6 +788,17 @@ namespace KQL.NET
         public static string AndEq(string propertyName, IList<string> values)
         {
             return AggregateExpression(propertyName, Resources.KQL.Eq, values, Resources.KQL.And);
+        }
+
+        /// <summary>
+        ///     Строит запрос по мягкому сравнению (Eq, ":") значению и объединяет логическим оператором OR
+        /// </summary>
+        /// <param name="propertyName">Название свойства</param>
+        /// <param name="values">Значения</param>
+        /// <returns>Выражение</returns>
+        public static string OrEq(string propertyName, IList<string> values)
+        {
+            return AggregateExpression(propertyName, Resources.KQL.Eq, values, Resources.KQL.Or);
         }
 
         /// <summary>

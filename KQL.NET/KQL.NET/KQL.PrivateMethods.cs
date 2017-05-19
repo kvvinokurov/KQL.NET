@@ -30,7 +30,7 @@ namespace KQL.NET
             if (value == string.Empty)
                 throw new ArgumentException(@"Параметр не может быть пустым", nameof(value));
 
-            return string.Format(ConcatPattern, propertyName, @operator,
+            return string.Concat(propertyName, @operator,
                 prepareStringPhrase ? PrepareStringPhrase(value) : value);
         }
 
@@ -53,6 +53,7 @@ namespace KQL.NET
             if (string.IsNullOrEmpty(leftExpression))
                 return rightExpression;
 
+            // ReSharper disable once ConvertIfStatementToReturnStatement
             if (string.IsNullOrEmpty(rightExpression))
                 return leftExpression;
 
@@ -64,7 +65,7 @@ namespace KQL.NET
         /// </summary>
         /// <param name="operator">Логический оператор</param>
         /// <param name="expressions">Выражения</param>
-        /// <param name="addParenthesis">Добавить круглые скобки</param>
+        /// <param name="addParenthesis">Добавить общие круглые скобки</param>
         /// <returns>Выражение</returns>
         private static string AggregateLogicalExpression(string @operator, IEnumerable<string> expressions,
             bool addParenthesis = false)
@@ -119,7 +120,8 @@ namespace KQL.NET
             if (logicalOperator == string.Empty)
                 throw new ArgumentException(@"Параметр не может быть пустым", nameof(logicalOperator));
 
-            var valuesExpression = values.Where(value => !string.IsNullOrEmpty(value))
+            var valuesExpression = values
+                .Where(value => !string.IsNullOrEmpty(value))
                 .Select(value => Expression(propertyName, comparisonOperator, value));
             return AggregateLogicalExpression(logicalOperator, valuesExpression, true);
         }
@@ -140,6 +142,11 @@ namespace KQL.NET
                 throw new ArgumentNullException(nameof(words));
             if (words == string.Empty)
                 throw new ArgumentException(@"Параметр не может быть пустым", nameof(words));
+
+            while (words.IndexOf("  ", StringComparison.Ordinal) != -1)
+            {
+                words = words.Replace("  ", " ");
+            }
 
             return string.Concat(@operator, Parenthesis(words));
         }
@@ -166,7 +173,7 @@ namespace KQL.NET
             if (separator == string.Empty)
                 throw new ArgumentException(@"Параметр не может быть пустым", nameof(separator));
 
-            var wordsValue = string.Join(separator, words);
+            var wordsValue = string.Join(separator, words.Where(word => !string.IsNullOrEmpty(word)));
             return StructureExpression(@operator, wordsValue);
         }
 
@@ -236,6 +243,10 @@ namespace KQL.NET
                 throw new ArgumentNullException(nameof(propertyName));
             if (propertyName == string.Empty)
                 throw new ArgumentException(@"Параметр не может быть пустым", nameof(propertyName));
+            if (propertyValue == null)
+                throw new ArgumentNullException(nameof(propertyValue));
+            if (propertyValue == string.Empty)
+                throw new ArgumentException(@"Параметр не может быть пустым", nameof(propertyValue));
 
             return string.Format(PropertyPattern, propertyName, propertyValue);
         }
